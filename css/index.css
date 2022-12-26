@@ -11,6 +11,7 @@ body{
   background-color: rgb(248, 248, 248);
   box-shadow: 1px 0px 7px #88888863;
   padding: 5px 0;
+  z-index: 9999;
 }
 .header .logo-area a{
   font-size: 30px;
@@ -62,7 +63,8 @@ font-size: 15px;
   color: rgb(56, 56, 56);
   text-transform: uppercase;
 }
-.banner-hd-area button{
+.banner-hd-area a.downlod-cv-btn{
+  text-decoration: none;
     background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
       color: rgb(248, 248, 248);
       border: none;
@@ -105,4 +107,110 @@ color: rgb(56, 56, 56);
   line-height: 1.7;
   font-weight: 500;
   color: rgb(109, 131, 242);
+}
+.things-area {
+  margin: 10px;
+  flex: 1 1 200px;
+  max-width: 300px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(248, 248, 248);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  border-radius: 10px;
+}
+.thing-hd {
+  margin: 50px auto;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: rgb(109, 131, 242);
+  text-align: center;
+  letter-spacing: 1px;
+}
+.tag-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
+    color: rgb(248, 248, 248);
+}
+.tag-icon i{
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+.things-area h3{
+  font-size: 23px;
+  font-weight: normal;
+    color: rgb(109, 131, 242);
+}
+.things-area p{
+  font-size: 14px;
+  line-height: 150%;
+    color: rgb(56, 56, 56);
+}
+.about-sec{
+  position: relative;
+}
+.about-back {
+  top: 120px;
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  min-height: 500px;
+  background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
+  transform: skewY(-3deg);
+  z-index: -1;
+  pointer-events: none;
+}
+.about-text{
+  padding: 100px 0;
+}
+.about-text p{
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #fff;
+}
+.about-text p span{
+  color: black;
+}
+.about-area{
+position: relative;
+  font-size: 12px;
+  height: 130px;
+  padding: 20px 20px 30px;
+  margin: 20px 10px;
+  border-radius: 10px;
+  min-width: 200px;
+  flex: 1 1 0%;
+  background-color: rgb(248, 248, 248);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.about-area h4{
+color: rgb(109, 131, 242);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.6;
+}
+.about-area i{
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+color:rgb(109, 131, 242);
+      float: right;
+}
+.skil-logo{
+  width: 125px;
+  margin: 0 auto;
+  height: 125px;
 }

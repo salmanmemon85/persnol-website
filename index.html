@@ -29,20 +29,19 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center justify-content-between">
           <div class="col-lg-3 col-md-6 col-6">
             <div class="logo-area">
               <a href="#">SS</a>
             </div>
           </div>
-          <div class="col-lg-9 col-md-6 col-6">
+          <div class="col-lg-6 col-md-6 col-6">
             <ul class="menu-list">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Project</a></li>
-              <li><a href="#">Creative coding</a></li>
-              <li><a href="#">Contact</a></li>
               <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -86,16 +85,29 @@
               <h1>Hello, I’m</h1>
               <h2>Salman Shoaib</h2>
               <p>Software Engineer</p>
-              <button>Download Resume</button>
+              <a
+                href="./pdf//salman-shoaib.docx"
+                download
+                class="downlod-cv-btn"
+                >Download Resume</a
+              >
               <div class="d-flex socials-icon">
                 <span>
-                  <i class="fa-brands fa-linkedin"></i>
+                  <a
+                    href="https://www.linkedin.com/in/salman-shoaib-760000213/"
+                  >
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
                 </span>
                 <span>
-                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
                 </span>
                 <span>
-                  <i class="fa-brands fa-facebook-f"></i>
+                  <a href="https://github.com/">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
                 </span>
               </div>
             </div>
@@ -110,6 +122,142 @@
                 5 this.age = new Date().getFullYear() - 2000;<br />
                 6 } 7 }
               </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="things-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-center thing-hd">Things I love</h3>
+          </div>
+          <div class="col-lg-4">
+            <div class="things-area">
+              <div class="tag-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3>Frontend</h3>
+              <p>
+                I'm more front end focused and love to work with Reactjs as well
+                as pure HTML, CSS.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="things-area">
+              <div class="tag-icon">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <h3>Javascript</h3>
+              <p>
+                I just extremely love javascript, I can’t even express how much
+                I love javascript with just a few lines.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="things-area">
+              <div class="tag-icon">
+                <i class="fa-solid fa-pen"></i>
+              </div>
+              <h3>Creative Coding</h3>
+              <p>
+                I love creative coding because I do both coding & designing.
+                making beautiful art with code is very satisfying to me.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-sec">
+      <div class="container">
+        <div class="about-back"></div>
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-center thing-hd">About Me</h3>
+          </div>
+          <div class="col-lg-4 col-md-5 col-12"></div>
+          <div class="col-lg-8 col-md-7 col-12">
+            <div class="about-text">
+              <p>
+                Hi, I'm Salman Shoaib a self-taught passionate FrontEnd
+                developer from India, currently working at <br />
+                <span>Salsoft Technology</span> as a FrontEnd Engineer. I've
+                been building stuff on the web since when I was in 6th standard,
+                I've made countless side projects and I also posses magical
+                powers of using react to build delightful user interfaces.
+              </p>
+              <p>
+                I also love doing open source development, I actively maintain
+                various notable open source projects with over, 30k+ stars on
+                GitHub and 50m+ hits. It gives me a wonderful feeling of
+                achievement and joy which I cannot explain in words.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="about-area">
+              <h4>“Simplicity is the baddest choice to be the best.“</h4>
+              <br />
+              <i>- salman shoaib</i>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="about-area">
+              <h4>
+                “I know I’m not successful enough, but I’m passionate enough not
+                to worry about success.“
+              </h4>
+              <br />
+              <i>- salman shoaib</i>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="about-area">
+              <h4>
+                “Creativity is the driver of an unstoppable train called
+                Passion.”
+              </h4>
+              <br />
+              <i>- salman shoaib</i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skil-sec">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h3 class="text-center thing-hd">My Skillset</h3>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="skil-logo text-center">
+              <img class="img-fluid" src="./images/ruby.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="skil-logo text-center">
+              <img
+                class="img-fluid"
+                src="./images/javascript-logo.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="skil-logo text-center">
+              <img class="img-fluid" src="./images/react-logo.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-6">
+            <div class="skil-logo text-center">
+              <img class="img-fluid" src="./images/css-logo.webp" alt="" />
             </div>
           </div>
         </div>
