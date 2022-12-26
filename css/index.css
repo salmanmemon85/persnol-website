@@ -36,8 +36,8 @@ body{
   text-decoration: none;
 }
 /* // banner // */
-.banner{
-  height: 100vh;
+.banner {
+  height: calc(100vh - 122px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,7 +172,7 @@ color: rgb(56, 56, 56);
   pointer-events: none;
 }
 .about-text{
-  padding: 100px 0;
+  padding: 100px 0 200px 0;
 }
 .about-text p{
   font-size: 15px;
@@ -213,4 +213,9 @@ color:rgb(109, 131, 242);
   width: 125px;
   margin: 0 auto;
   height: 125px;
+}
+.pf-img-area{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
 }
