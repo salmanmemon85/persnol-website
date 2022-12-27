@@ -13,11 +13,11 @@ body{
   padding: 5px 0;
   z-index: 9999;
 }
-.header .logo-area a{
+.header .logo-area a, .logo-area a{
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  color: rgb(109, 131, 242);
+  color: rgb(109, 131, 242) !important;
 }
 .menu-list{
   display: flex;
@@ -218,4 +218,99 @@ color:rgb(109, 131, 242);
   width: 250px;
   height: 250px;
   margin: 0 auto;
+}
+.project-area {
+  justify-self: center;
+  margin: 0px;
+  position: relative;
+  padding: 0px 0 20px 0;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: unset;
+  width: 100%;
+  height: auto;
+  max-width: 90%;
+  transform: translateY(0px);
+  background-color: rgb(248, 248, 248);
+    box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
+  transition: transform 0.2s ease 0s;
+  margin-bottom: 20px;
+}
+a{
+  text-decoration: none;
+}
+.project-area h3{
+  font-size: 18px;
+  margin: 20px 20px;
+  font-weight: 400;
+  line-height: 140%;
+  color: rgb(56, 56, 56);
+}
+.links-area a.icon-live{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.links-area a.icon-live i{
+  font-size: 16px;
+}
+.detail-info h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+.detail-info p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #88888863;
+  margin-bottom: 10px;
+}
+.detail-img-area {
+  width: calc(100% - 30px);
+  position: relative;
+  height: 400px;
+  margin: 0 auto;
+  background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
+  padding: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+.detail-img-area i{
+  font-size: 100px;
+  color: #fff;
+}
+.detail-img-area h3{
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+.detail-img-area p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.footer{
+  background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
+  padding: 5px 0 0 0;
+  margin-top: 50px;
+    box-shadow: rgb(0 0 0 / 5%) 0px 5px 10px;
+}
+.logo-area a{
+  color: #fff !important;
+}
+.footer p{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  color: #fff;
+}
+.footer p a{
+  color: #fff;
 }
